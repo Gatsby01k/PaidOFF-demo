@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color-scheme: dark;
+}
+html, body {
+  height: 100%;
+}
+body{
+  background: #050505;
+  color: #F6F000;
+}
+::selection{
+  background: #F6F000;
+  color: #050505;
+}
+a{ color: inherit; }
